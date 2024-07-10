@@ -72,10 +72,11 @@ body {
     justify-content: center;
     margin-top: 30px;
     margin-bottom: 20px;
+    color: white;
 
 }
 
-.contact-button button {
+.contact-button a {
     justify-content: center;
     box-sizing: border-box;
     color: aliceblue;
@@ -86,6 +87,7 @@ body {
     padding: 12px;
     background: rgb(13, 19, 33);
     border: none;
+    text-decoration: none;
 }
 
 .hero {
@@ -304,14 +306,23 @@ body {
 }
 
 .contact-section {
-    padding: 50px;
-    background-image: cover;
-    background-repeat: no-repeat;
+    max-width: 1140px;
+    height: 314px;
+    margin: 0 auto;
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
     border-radius: 16px;
 
-    background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), url(Email);
 
 
+}
+
+.contact-card {
+    padding: 50px 0px 0px;
 }
 
 .text-color {
@@ -330,7 +341,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    margin: 10px;
+    margin: 40px 0px 0px;
     border-radius: 16px;
 
     background: rgba(13, 19, 33, 0.03);
