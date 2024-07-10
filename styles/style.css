@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
-body{
+
+body {
     font-family: "Azeret Mono", monospace;
 }
-*{
-    margin: 0;    
+
+* {
+    margin: 0;
 }
-.nav{
+
+.nav {
     display: flex;
     text-align: center;
     justify-content: space-between;
@@ -13,12 +16,14 @@ body{
     margin-bottom: 35px;
     font-weight: bold;
 }
-.logo-name{
+
+.logo-name {
     font-size: 28px;
     letter-spacing: 0%;
     margin-left: 150px;
 }
-.download-button{
+
+.download-button {
     margin-right: 168px;
     box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
@@ -30,13 +35,15 @@ body{
     font-weight: bold;
     padding: 15px 20px;
 }
-.banner-img{
+
+.banner-img {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
 }
-.header{
+
+.header {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,7 +54,8 @@ body{
     padding: 50px;
     letter-spacing: 0%;
 }
-.description{
+
+.description {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,7 +65,8 @@ body{
     opacity: 0.7;
 
 }
-.contact-button{
+
+.contact-button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -65,7 +74,8 @@ body{
     margin-bottom: 20px;
 
 }
-.contact-button button{
+
+.contact-button button {
     justify-content: center;
     box-sizing: border-box;
     color: aliceblue;
@@ -77,18 +87,161 @@ body{
     background: rgb(13, 19, 33);
     border: none;
 }
-.hero-heading{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-.hero-description{
+
+.hero {
+    max-width: 1000px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    margin: 120px auto;
+    padding: 30px;
+
 
 }
-.hero-title{
+
+.hero-title {
     display: flex;
     align-items: center;
-    text-align: center;
     justify-content: center;
+    text-align: center;
+    color: rgb(13, 19, 33);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.hero-description {
+    color: rgb(12, 18, 31);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+    padding: 24px;
+}
+
+.hero-card {
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 0 auto;
+    padding: 40px;
+    margin-bottom: 34px;
+}
+
+.hero-card-middle {
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    margin: 0 auto;
+    padding: 40px;
+    margin-bottom: 34px;
+}
+
+.hero-content {
+    max-width: 477px;
+}
+
+.learn-btn {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.learn-description {
+    padding: 32px 0;
+}
+
+
+
+.inspiration-container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+    margin-top: 88px;
+
+}
+
+.basic-content {
+    max-width: 852px;
+    margin: 0 auto;
+}
+
+.basic-title {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.basic-description {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.video {
+    width: 1140px;
+    height: 614px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.02);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-content {
+    width: 1076px;
+    height: 550px;
+    border-radius: 16px;
+    border: none;
+}
+
+.card-div {
+    position: static;
+    width: 364px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 30px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    justify-content: center;
+   
+}
+
+.main-div{
+  
+ display: flex;
+ gap: 10px;
+ padding: 10px;
+ margin: 10px;
+
 }
