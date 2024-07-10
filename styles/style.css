@@ -317,9 +317,21 @@ body {
 .text-color {
     color: white;
 }
-.footer-img{
+
+.footer-img {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
+}
+
+.footer-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 16px;
+
+    background: rgba(13, 19, 33, 0.03);
 }
